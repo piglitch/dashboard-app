@@ -95,7 +95,7 @@ export default async function InvoicesTable({
                       <p>{invoice.name}</p>
                     </div>
                   </td>
-                  <td className="whitespace-nowrap px-3 py-3">
+                  <td className="whitespace-nowrap px-8 py-3">
                     {invoice.email}
                   </td>
                   <td className="whitespace-nowrap px-3 py-3">
