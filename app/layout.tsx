@@ -2,6 +2,12 @@ import '@/app/ui/global.css'
 import { inter } from "@/app/ui/fonts";
 import { lusitana } from '@/app/ui/fonts';
 
+export const metadata: Metadata = {
+  title: 'Acme Dashboard',
+  description: 'Dashboard built with App router',
+  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+}
+
 export default function RootLayout({
   children,
 }: {
